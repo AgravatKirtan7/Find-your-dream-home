@@ -126,6 +126,9 @@ button {
     border-radius: 8px;
     border: none;
     font-weight: 600;
+    height: 58px;
+    width: 176px;
+    opacity: 1;
     transition: background-color 0.3s ease;
 }
 
@@ -142,9 +145,9 @@ button {
 .hero-section {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 4rem 2rem 2rem;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     gap: 2rem;
 }
 
@@ -159,8 +162,13 @@ button {
     margin-bottom: 1rem;
 }
 
+
+
 .hero-content p {
-    font-weight: 400;
+    font-weight: 700;
+    font-family: Montserrat;
+    font-style: Bold;
+    font-size: 18px;
     margin-bottom: 1.5rem;
     max-width: 500px;
 }
@@ -372,15 +380,20 @@ button {
     text-align: center;
 }
 
+/* 
+ 
+*/
+
 .section-title {
-    font-size: 2rem;
+    font-family: 'Montserrat';
+    font-size: 40px;
     font-weight: 800;
     color: #2c1b11;
     margin-bottom: 0.5rem;
 }
 
 .section-description {
-    font-size: 1rem;
+    font-size: 18px;
     color: #5a4c45;
     max-width: 600px;
     margin: 0 auto 2.5rem;
@@ -461,7 +474,7 @@ button {
 }
 
 .section-title {
-    font-size: 2rem;
+    font-size: 40px;
     font-weight: 800;
     margin-bottom: 2rem;
     color: #2c1b11;
@@ -655,7 +668,7 @@ button {
 }
 
 .section-title {
-    font-size: 2rem;
+    font-size: 40px;
     font-weight: 800;
     margin-bottom: 2rem;
     color: #2c1b11;
