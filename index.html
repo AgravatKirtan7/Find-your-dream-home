@@ -13,38 +13,43 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    </style>
   </head>
 
   <body>
     <header class="primary-header">
-      <div class="container">
-        <nav class="navbar">
-          <div class="nav-left">
-            <div class="logo">
-              <img src="/Find_your_home/Images/Logo.svg" alt="" />
-            </div>
-          </div>
-
-          <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Service</a></li>
-            <li><a href="#">Agents</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-          <div class="nav-right">
-            <button class="icon-button">
-              <img src="Images/search-logo.svg" />
-            </button>
-            <button class="icon-button">
-              <img src="Images/User-logo.svg" />
-            </button>
-            <button class="btn btn-dark" style="margin-left: 20px">
-              Sign up
-            </button>
-          </div>
-        </nav>
+  <div class="container">
+    <nav class="navbar">
+      <div class="nav-left">
+        <div class="logo">
+          <img src="/Find_your_home/Images/Logo.svg" alt="" />
+        </div>
       </div>
-    </header>
+
+      <ul class="nav-links mobile-menu" id="nav-links">
+
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Agents</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <button class="icon-button">
+          <img src="Images/search-logo.svg" />
+        </button>
+        <button class="icon-button">
+          <img src="Images/User-logo.svg" />
+        </button>
+        <button class="btn btn-dark btn-sign-up" style="margin-left: 20px">
+          Sign up
+        </button>
+        <button class="hamburger" id="menu-toggle">&#9776;</button>
+      </div>
+    </nav>
+  </div>
+</header>
+
     <main class="hero-section">
       <div class="hero-content">
         <h1 style="font-size: 74px; font-weight: 800; font-family: Montserrat">
@@ -513,7 +518,7 @@
               alt="Logo"
             />
           </div>
-          <p>Bringing you closer to your dream home, one click at a time.</p>
+          <p>Bringing you closer <br/> to your dream home, one <br />click at a time.</p>
         </div>
 
         <div class="footer-col">

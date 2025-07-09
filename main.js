@@ -1,15 +1,22 @@
-  const carousel = document.querySelector('.testimonial-carousel');
-  const nextBtn = document.getElementById('nextBtn');
-  const prevBtn = document.getElementById('prevBtn');
+const carousel = document.querySelector(".testimonial-carousel");
+const nextBtn = document.getElementById("nextBtn");
+const prevBtn = document.getElementById("prevBtn");
 
-  const card = document.querySelector('.testimonial-card');
-  const gap = 16; // 1rem gap
-  const cardWidth = card.offsetWidth + gap;
+const card = document.querySelector(".testimonial-card");
+const gap = 16; // 1rem gap
+const cardWidth = card.offsetWidth + gap;
 
-  nextBtn.addEventListener('click', () => {
-    carousel.scrollBy({ left: cardWidth, behavior: 'smooth' });
-  });
+nextBtn.addEventListener("click", () => {
+  carousel.scrollBy({ left: cardWidth, behavior: "smooth" });
+});
 
-  prevBtn.addEventListener('click', () => {
-    carousel.scrollBy({ left: -cardWidth, behavior: 'smooth' });
-  });
+prevBtn.addEventListener("click", () => {
+  carousel.scrollBy({ left: -cardWidth, behavior: "smooth" });
+});
+
+const toggleBtn = document.getElementById("menu-toggle");
+const navMenu = document.getElementById("nav-links");
+
+toggleBtn.addEventListener("click", () => {
+  navMenu.classList.toggle("show");
+});
